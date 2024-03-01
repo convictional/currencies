@@ -7,7 +7,7 @@ export interface Currency {
 
 export type Currencies = Record<Currency["code"], Currency>;
 
-const CURRENCIES = {
+const CURRENCIES: Currencies = {
   CAD: {
     currency: "Canadian Dollar",
     code: "CAD",
