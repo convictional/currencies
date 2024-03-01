@@ -1,0 +1,20 @@
+{
+  "name": "currencies",
+  "version": "0.0.1",
+  "description": "Typed data about currencies accepted by Convictional (and Shopify)",
+  "main": "index.ts",
+  "repository": "https://github.com/convictional/currencies.git",
+  "author": "Curt Howard",
+  "contributors": [
+    "Curt Howard <curt.howard@convictional.com>",
+    "Nick Wehner <nick.wehner@convictional.com>"
+  ],
+  "license": "Unlicense",
+  "private": false,
+  "devDependencies": {
+    "tsc": "^2.0.4"
+  },
+  "scripts": {
+    "tsc": "tsc"
+  }
+}
